@@ -1,0 +1,29 @@
+#notion-app a {
+  cusur: inherit
+}
+
+#notion-app,body.notion-body,html.notion-html {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: transparent
+}
+
+.notion-app-inner {
+    height: 100%
+}
+
+html.notion-front-page,html.notion-front-page #notion-app,html.notion-front-page body {
+    height: auto;
+    overflow-x: initial;
+    overflow-y: initial;
+    background: #fffefc
+}
+
+html.notion-front-page .notion-app-inner {
+    height: auto
+}
+
+#notion-app b {
+    font-weight: 600
+}
